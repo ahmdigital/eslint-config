@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "Our eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmdigital/eslint-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmdigital/eslint-config/issues"
+  },
+  "homepage": "https://github.com/ahmdigital/eslint-config#readme"
+}
