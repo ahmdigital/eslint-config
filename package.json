@@ -1,8 +1,7 @@
 {
-  "name": "eslint-config",
+  "name": "@ahmdigital/eslint-config",
   "version": "1.0.0",
   "description": "Our eslint config",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahmdigital/eslint-config.git"
+    "url": "https://github.com/ahmdigital/eslint-config.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "ahm Digital <AHM.Digital.Team@medibank.com.au>",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/ahmdigital/eslint-config/issues"
   },
