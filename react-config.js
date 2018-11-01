@@ -1,14 +1,16 @@
-const { globalExtensions, globalEnv, globalParser, globalPlugins, globalRules, globalSettings } = require('./globalConfig');
+const { globalExtensions, globalEnv, globalPlugins, globalRules, globalSettings } = require('./globalConfig');
 
 module.exports = {
   "extends": ["airbnb", ...globalExtensions],
   "parser": globalParser,
   "plugins": ["cypress", ...globalPlugins,],
   "env": {
+    "browser": true,
     "cypress/globals": true,
     "mocha": true,
     ...globalEnv
   },
+  "parser": "babel-eslint",
   "global": {},
   "settings": {
     ...globalSettings
@@ -29,4 +31,4 @@ module.exports = {
     "react/prop-types": "error",
     "react/require-default-props": "warn",
   }
-}
+};

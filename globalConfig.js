@@ -7,11 +7,9 @@ module.exports = {
     "plugin:jest/recommended", "plugin:lodash/canonical", "plugin:prettier/recommended"
   ],
   globalEnv: {
-    "browser": true,
     "jest": true,
     "node": true,
   },
-  globalParser: "babel-eslint",
   globalPlugins: [
     "jest", "jsdoc", "json", "lodash"
   ],
