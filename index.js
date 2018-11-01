@@ -1,16 +1,22 @@
-const { globalExtensions, globalEnv, globalPlugins, globalRules, globalSettings } = require('./globalConfig');
+const {
+  globalExtensions,
+  globalEnv,
+  globalPlugins,
+  globalRules,
+  globalSettings
+} = require("./globalConfig");
 
 module.exports = {
-  "extends": ["airbnb-base", ...globalExtensions],
-  "plugins": [...globalPlugins],
-  "env": {
+  env: {
     ...globalEnv
   },
-  "globals": {},
-  "settings": {
-    ...globalSettings
+  extends: ["airbnb-base", ...globalExtensions],
+  globals: {},
+  plugins: [...globalPlugins],
+  rules: {
+    ...globalRules
   },
-  "rules": {
-    ...globalRules,
+  settings: {
+    ...globalSettings
   }
-}
+};
