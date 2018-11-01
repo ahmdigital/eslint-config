@@ -5,7 +5,7 @@ const {
   globalPlugins,
   globalRules,
   globalSettings
-} = require("./globalConfig");
+} = require("./global-config");
 
 module.exports = {
   env: {
