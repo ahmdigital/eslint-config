@@ -8,7 +8,8 @@ module.exports = {
   ],
   globalEnv: {
     "browser": true,
-    "jest": true
+    "jest": true,
+    "node": true,
   },
   globalParser: "babel-eslint",
   globalPlugins: [

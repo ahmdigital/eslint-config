@@ -7,7 +7,6 @@ module.exports = {
   "env": {
     "cypress/globals": true,
     "mocha": true,
-    "node": true,
     ...globalEnv
   },
   "global": {},

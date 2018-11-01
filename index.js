@@ -13,8 +13,5 @@ module.exports = {
   },
   "rules": {
     ...globalRules,
-    "no-mixed-operators": ["error", { "allowSamePrecedence": true }],
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
-    "sort-keys": ["warn", "asc", { "caseSensitive": true, "natural": false }]
   }
 }
