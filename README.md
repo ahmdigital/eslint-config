@@ -1,3 +1,3 @@
 # eslint-config
 
-Our eslint config
+Our eslint config.
