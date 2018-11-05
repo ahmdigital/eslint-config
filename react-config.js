@@ -14,7 +14,7 @@ module.exports = {
     mocha: true,
     ...globalEnv
   },
-  extends: ["airbnb", ...globalExtensions],
+  extends: ["airbnb", ...globalExtensions, "prettier/react"],
   parser: globalParser,
   plugins: ["cypress", ...globalPlugins],
   rules: {
