@@ -11,7 +11,6 @@ module.exports = {
     ...globalEnv
   },
   extends: ["airbnb-base", ...globalExtensions],
-  globals: {},
   plugins: [...globalPlugins],
   rules: {
     ...globalRules

@@ -15,12 +15,11 @@ module.exports = {
     ...globalEnv
   },
   extends: ["airbnb", ...globalExtensions],
-  global: {},
   parser: globalParser,
   plugins: ["cypress", ...globalPlugins],
   rules: {
     ...globalRules,
-    "jsx-a11y/href-no-hash": "warn",
+    "jsx-a11y/anchor-is-valid": "warn",
     "jsx-a11y/no-static-element-interactions": "warn",
     "react/jsx-filename-extension": "warn",
     "react/forbid-prop-types": "warn",
