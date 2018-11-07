@@ -5,6 +5,7 @@
 module.exports = {
   globalEnv: {
     jest: true,
+    mocha: true,
     node: true
   },
   globalExtensions: [
