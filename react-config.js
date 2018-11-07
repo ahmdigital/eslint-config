@@ -11,7 +11,6 @@ module.exports = {
   env: {
     browser: true,
     "cypress/globals": true,
-    mocha: true,
     ...globalEnv
   },
   extends: ["airbnb", ...globalExtensions, "prettier/react"],
