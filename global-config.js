@@ -52,7 +52,7 @@ module.exports = {
       { ignoreMethods: ["find", "startsWith"] }
     ],
     "lodash/prefer-over-quantifier": "off",
-    "max-len": ["error", 120],
+    "max-len": "off",
     "new-parens": "error",
     "no-alert": "error",
     "no-console": "error",
