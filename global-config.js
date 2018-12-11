@@ -1,5 +1,5 @@
-/* This file sets all of the eslint config properties that are reused into 
- * a common object that can be shared. 
+/* This file sets all of the eslint config properties that are reused into
+ * a common object that can be shared.
  */
 
 module.exports = {
@@ -61,6 +61,7 @@ module.exports = {
       "error",
       { allow: ["__config", "__setMockValues"] }
     ],
+    "prettier/prettier": ["error", { "printWidth": 120, "singleQuote": true, "trailingComma": "es5" } ],
     "sort-keys": ["warn", "asc", { caseSensitive: true, natural: false }]
   },
   globalSettings: {
