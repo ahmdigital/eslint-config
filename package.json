@@ -34,7 +34,7 @@
   },
   "engines": {
     "node": "^8",
-    "npm": "6.4.1"
+    "npm": "6.5.0"
   },
   "renovate": {
     "extends": [
