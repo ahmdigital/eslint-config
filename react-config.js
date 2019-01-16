@@ -22,6 +22,7 @@ module.exports = {
     "jsx-a11y/no-static-element-interactions": "warn",
     "react/jsx-filename-extension": "warn",
     "react/forbid-prop-types": "warn",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/jsx-no-bind": "error",
     "react/jsx-no-target-blank": "warn",
     "react/no-danger": "warn",
