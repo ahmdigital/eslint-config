@@ -16,6 +16,13 @@ module.exports = {
   globalParser: "babel-eslint",
   globalPlugins: ["jest", "jsdoc", "json", "lodash"],
   globalRules: {
+    "comma-dangle": ["error", {
+      arrays: "always-multiline",
+      objects: "always-multiline",
+      imports: "always-multiline",
+      exports: "always-multiline",
+      functions: "always-multiline"
+    }],
     "func-names": "error",
     "global-require": "error",
     "id-length": [
