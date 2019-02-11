@@ -68,8 +68,8 @@ module.exports = {
       "error",
       { allow: ["__config", "__setMockValues"] }
     ],
-    "prettier/prettier": ["error", { "printWidth": 120, "singleQuote": true, "trailingComma": "es5" } ],
     "sort-keys": ["warn", "asc", { caseSensitive: true, natural: false }]
+    'prettier/prettier': ['error', { printWidth: 120, singleQuote: true, trailingComma: 'all' }],
   },
   globalSettings: {
     lodash: {
