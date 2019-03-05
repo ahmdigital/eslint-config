@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/ahmdigital/eslint-config#readme",
   "dependencies": {
+    "babel-eslint": "10.0.1",
     "eslint": "5.15.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-airbnb-base": "13.1.0",
