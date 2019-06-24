@@ -1,6 +1,6 @@
 {
   "name": "@ahmdigital/eslint-config",
-  "version": "1.3.59",
+  "version": "1.3.60",
   "description": "Our eslint config",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
