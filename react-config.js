@@ -15,7 +15,7 @@ module.exports = {
   },
   extends: ['airbnb', ...globalExtensions, 'prettier/react'],
   parser: globalParser,
-  plugins: ['cypress', ...globalPlugins],
+  plugins: ['sort-imports-es6-autofix', 'cypress', ...globalPlugins],
   rules: {
     ...globalRules,
     'jsx-a11y/anchor-is-valid': 'warn',
@@ -31,6 +31,14 @@ module.exports = {
     'react/prefer-stateless-function': 'warn',
     'react/prop-types': 'error',
     'react/require-default-props': 'warn',
+    'sort-imports-es6-autofix/sort-imports-es6': [
+      'error',
+      {
+        ignoreCase: true,
+        ignoreMemberSort: false,
+        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single']
+      }
+    ],
   },
   settings: {
     ...globalSettings,

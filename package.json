@@ -10,7 +10,7 @@
     "url": "https://github.com/ahmdigital/eslint-config.git"
   },
   "author": "ahm Digital <AHM.Digital.Team@medibank.com.au>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ahmdigital/eslint-config/issues"
   },
@@ -30,6 +30,7 @@
     "eslint-plugin-lodash": "5.1.0",
     "eslint-plugin-prettier": "3.1.0",
     "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.4.0",
     "prettier": "1.18.2"
   },
   "engines": {
