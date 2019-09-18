@@ -15,9 +15,11 @@ module.exports = {
   },
   extends: ['airbnb', ...globalExtensions, 'prettier/react'],
   parser: globalParser,
-  plugins: ['sort-imports-es6-autofix', 'cypress', ...globalPlugins],
+  plugins: ['sort-imports-es6-autofix', 'cypress', 'react-hooks', ...globalPlugins],
   rules: {
     ...globalRules,
+    'react-hooks/exhaustive-deps': 'warn',
+    'react-hooks/rules-of-hooks': 'error',
     'jsx-a11y/anchor-is-valid': 'warn',
     'jsx-a11y/no-static-element-interactions': 'warn',
     'react/forbid-prop-types': 'warn',
@@ -36,8 +38,8 @@ module.exports = {
       {
         ignoreCase: true,
         ignoreMemberSort: false,
-        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single']
-      }
+        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
+      },
     ],
   },
   settings: {
