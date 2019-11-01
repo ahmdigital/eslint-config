@@ -2,41 +2,38 @@
   "name": "@ahmdigital/eslint-config",
   "version": "2.0.19",
   "description": "Our eslint config",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ahmdigital/eslint-config.git"
   },
-  "author": "ahm Digital <AHM.Digital.Team@medibank.com.au>",
+  "author": "ahm Digital <ahm.Digital.Team@medibank.com.au>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ahmdigital/eslint-config/issues"
   },
   "homepage": "https://github.com/ahmdigital/eslint-config#readme",
   "dependencies": {
-    "eslint": "5.16.0",
-    "eslint-config-airbnb": "17.1.1",
-    "eslint-config-airbnb-base": "13.2.0",
-    "eslint-config-prettier": "4.3.0",
-    "eslint-import-resolver-webpack": "0.11.1",
-    "eslint-plugin-cypress": "2.7.0",
-    "eslint-plugin-import": "2.18.2",
-    "eslint-plugin-jest": "22.21.0",
-    "eslint-plugin-jsdoc": "8.7.0",
-    "eslint-plugin-json": "1.4.0",
-    "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-lodash": "5.1.1",
-    "eslint-plugin-prettier": "3.1.1",
-    "eslint-plugin-react": "7.16.0",
-    "eslint-plugin-react-hooks": "2.0.1",
-    "eslint-plugin-sort-imports-es6-autofix": "0.4.0",
-    "prettier": "1.18.2"
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-cypress": "^2.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.0.2",
+    "eslint-plugin-jsdoc": "^17.0.0",
+    "eslint-plugin-json": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-lodash": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.5.0",
+    "prettier": "^1.18.2"
   },
   "engines": {
-    "node": "8^",
-    "npm": "6.10.1"
+    "node": "8.16.2",
+    "npm": "6.12.1"
   },
   "renovate": {
     "extends": [
