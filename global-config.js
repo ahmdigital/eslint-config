@@ -12,6 +12,7 @@ module.exports = {
   globalParser: 'babel-eslint',
   globalPlugins: ['jest', 'jsdoc', 'json', 'lodash'],
   globalRules: {
+    'arrow-body-style': ['error', 'as-needed'],
     'func-names': 'error',
     'global-require': 'error',
     'id-length': ['error', { exceptions: ['_', 'i', 'j'], min: 2, properties: 'never' }],
