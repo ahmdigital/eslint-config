@@ -4,7 +4,7 @@ module.exports = {
   env: {
     ...globalEnv,
   },
-  extends: ['airbnb-base', ...globalExtensions],
+  extends: ['airbnb-base', 'plugin:prettier/recommended', ...globalExtensions],
   plugins: [...globalPlugins],
   rules: {
     ...globalRules,
