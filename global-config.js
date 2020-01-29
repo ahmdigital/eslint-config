@@ -10,7 +10,7 @@ module.exports = {
   },
   globalExtensions: ['plugin:jest/recommended', 'plugin:lodash/canonical', 'plugin:prettier/recommended'],
   globalParser: 'babel-eslint',
-  globalPlugins: ['jest', 'jsdoc', 'json', 'lodash'],
+  globalPlugins: ['jest', 'jsdoc', 'json', 'lodash', 'prettier'],
   globalRules: {
     'arrow-body-style': ['error', 'as-needed'],
     'func-names': 'error',
