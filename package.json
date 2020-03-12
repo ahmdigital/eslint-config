@@ -32,7 +32,8 @@
     "eslint-plugin-react-hooks": "2.5.0",
     "eslint-plugin-sort-imports-es6-autofix": "0.5.0",
     "eslint-plugin-tsdoc": "^0.2.3",
-    "prettier": "1.19.1"
+    "prettier": "1.19.1",
+    "typescript": "^3.8.3"
   },
   "engines": {
     "node": "10.16.3",
