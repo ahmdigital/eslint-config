@@ -9,10 +9,6 @@ module.exports = {
   plugins: [...globalPlugins, '@typescript-eslint', 'eslint-plugin-tsdoc'],
   rules: {
     ...globalRules,
-  },
-  settings: {
-    ...globalSettings,
-    jsdoc: { mode: 'typescript' },
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-useless-constructor': 'error',
     'import/extensions': 'off',
@@ -23,5 +19,9 @@ module.exports = {
     'no-unused-vars': 'off',
     'no-useless-constructor': 'off',
     'tsdoc/syntax': 'error',
+  },
+  settings: {
+    ...globalSettings,
+    jsdoc: { mode: 'typescript' },
   },
 };
