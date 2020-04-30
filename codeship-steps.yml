@@ -1,0 +1,24 @@
+- name: Reinstate SSH Private Key File
+  service: build-service
+  tag: master
+  command: /bin/bash -c "echo -e $PRIVATE_SSH_KEY >> /root/.ssh/id_rsa"
+
+- name: Chmod id_rsa
+  service: build-service
+  tag: master
+  command: chmod 600 /root/.ssh/id_rsa
+
+- name: Add server to list of known hosts
+  service: build-service
+  tag: master
+  command: /bin/bash -c "ssh-keyscan -H github.com >> /root/.ssh/known_hosts"
+
+- name: Confirm ssh connection to server, authenticating with generated public ssh key
+  service: build-service
+  tag: master
+  command: /bin/bash -c "ssh -o StrictHostKeyChecking=no -Tvv git@github.com 2>&1 | grep 'successfully authenticated'"
+
+- name: Release the app
+  service: build-service
+  tag: master
+  command: npx -p @ahmdigital/devops release
