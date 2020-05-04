@@ -5,4 +5,5 @@ node_modules
 lib
 Dockerfile
 *.encrypted
-*.yml
+codeship-services.yml
+codeship-steps.yml
