@@ -4,6 +4,7 @@ node_modules
 .ssh
 lib
 Dockerfile
+.dockerignore
 *.encrypted
 codeship-services.yml
 codeship-steps.yml
