@@ -7,5 +7,4 @@ build-service:
     - codeship-env.encrypted
   volumes:
     - ./.codeship/.ssh:/root/.ssh
-    - ./.codeship/lib:/root/app/lib
   cached: true
