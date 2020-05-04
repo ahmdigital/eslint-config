@@ -1,0 +1,8 @@
+node_modules
+*.aes
+*.decrypted
+.ssh
+lib
+Dockerfile
+*.encrypted
+*.yml
