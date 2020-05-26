@@ -18,6 +18,12 @@ module.exports = {
     'id-length': ['error', { exceptions: ['_', 'i', 'j'], min: 2, properties: 'never' }],
     'import/export': 'error',
     'import/first': 'warn',
+    'import/no-anonymous-default-export': [
+      'error',
+      {
+        allowObject: true,
+      },
+    ],
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'import/order': [
       'error',
