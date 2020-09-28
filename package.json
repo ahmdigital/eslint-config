@@ -1,6 +1,6 @@
 {
   "name": "@ahmdigital/eslint-config",
-  "version": "3.2.60",
+  "version": "3.2.61",
   "description": "Our eslint config",
   "repository": {
     "type": "git",
