@@ -3,3 +3,5 @@ node_modules
 *.decrypted
 /.codeship/*/*
 !/.codeship/*/.gitkeep
+codeship_deploy_key*
+codeship.env
