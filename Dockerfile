@@ -6,7 +6,7 @@ RUN apt-get update \
   && apt-get install -y jq
 
 RUN npm i -g npm@latest
-COPY package.json package-lock.json .
+COPY package.json package-lock.json ./
 RUN npm ci --quiet --no-optional && npm cache clean --force
 
 COPY .eslintrc.js .
