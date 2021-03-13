@@ -22,7 +22,7 @@
     "eslint-import-resolver-webpack": "0.13.0",
     "eslint-plugin-cypress": "2.11.2",
     "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-jest": "24.1.5",
+    "eslint-plugin-jest": "24.2.1",
     "eslint-plugin-jsdoc": "32.2.0",
     "eslint-plugin-json": "2.1.2",
     "eslint-plugin-jsx-a11y": "6.4.1",
