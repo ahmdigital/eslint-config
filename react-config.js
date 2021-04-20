@@ -13,7 +13,7 @@ module.exports = {
     'cypress/globals': true,
     ...globalEnv,
   },
-  extends: ['airbnb', ...globalExtensions, 'prettier/react'],
+  extends: ['airbnb', ...globalExtensions],
   parser: globalParser,
   plugins: ['sort-imports-es6-autofix', 'cypress', 'react-hooks', ...globalPlugins],
   rules: {
