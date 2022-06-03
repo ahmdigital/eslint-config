@@ -8,7 +8,12 @@ module.exports = {
     mocha: true,
     node: true,
   },
-  globalExtensions: ['plugin:jest/recommended', 'plugin:lodash/canonical', 'plugin:prettier/recommended'],
+  globalExtensions: [
+    'plugin:jest/recommended',
+    'plugin:lodash/canonical',
+    'plugin:prettier/recommended',
+    'plugin:lodash-fp/recommended',
+  ],
   globalParser: 'babel-eslint',
   globalPlugins: ['jest', 'jsdoc', 'json', 'lodash', 'prettier'],
   globalRules: {
@@ -51,6 +56,7 @@ module.exports = {
     'lodash/prefer-constant': ['error', false],
     'lodash/prefer-lodash-method': ['error', { ignoreMethods: ['find', 'startsWith'] }],
     'lodash/prefer-over-quantifier': 'off',
+    'lodash-fp/use-fp': 'warning',
     'new-parens': 'error',
     'no-alert': 'error',
     'no-console': 'error',
