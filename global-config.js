@@ -56,7 +56,7 @@ module.exports = {
     'lodash/prefer-constant': ['error', false],
     'lodash/prefer-lodash-method': ['error', { ignoreMethods: ['find', 'startsWith'] }],
     'lodash/prefer-over-quantifier': 'off',
-    'lodash-fp/use-fp': 'warning',
+    'lodash-fp/use-fp': 'warn',
     'new-parens': 'error',
     'no-alert': 'error',
     'no-console': 'error',
