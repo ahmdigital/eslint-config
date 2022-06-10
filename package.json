@@ -48,6 +48,6 @@
     "node": "^14 || ^16"
   },
   "devDependencies": {
-    "jest": "28.1.0"
+    "jest": "28.1.1"
   }
 }
