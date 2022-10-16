@@ -14,7 +14,7 @@
   "scripts": {
     "lint": "eslint . --fix"
   },
-  "homepage": "https://github.com/ahmdigital/eslint-config#readme",
+  "homepage": "https://github.com/ahmdigital/eslint-config",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.40.0",
     "@typescript-eslint/parser": "5.40.0",
