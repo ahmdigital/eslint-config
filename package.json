@@ -51,6 +51,7 @@
     "jest": "29.3.1"
   },
   "files": [
+    ".eslintrc.js",
     "global-config.js",
     "index.js",
     "react-config.js",
