@@ -45,7 +45,7 @@
     ]
   },
   "engines": {
-    "node": "^16"
+    "node": "^18"
   },
   "devDependencies": {
     "jest": "29.5.0"
