@@ -1,6 +1,6 @@
 {
   "name": "@ahmdigital/eslint-config",
-  "version": "7.0.5",
+  "version": "7.0.16",
   "description": "ahm digital eslint config",
   "repository": {
     "type": "git",
@@ -16,8 +16,8 @@
   },
   "homepage": "https://github.com/ahmdigital/eslint-config",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.57.1",
-    "@typescript-eslint/parser": "5.57.1",
+    "@typescript-eslint/eslint-plugin": "5.59.1",
+    "@typescript-eslint/parser": "5.59.1",
     "eslint": "8.28.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-base": "15.0.0",
@@ -26,7 +26,7 @@
     "eslint-plugin-cypress": "2.13.2",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jest": "27.2.1",
-    "eslint-plugin-jsdoc": "40.1.1",
+    "eslint-plugin-jsdoc": "43.1.1",
     "eslint-plugin-json": "3.1.0",
     "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-lodash": "7.4.0",
@@ -36,7 +36,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-sort-imports-es6-autofix": "0.6.0",
     "eslint-plugin-tsdoc": "0.2.17",
-    "prettier": "2.8.7",
+    "prettier": "2.8.8",
     "typescript": "4.9.5"
   },
   "renovate": {
