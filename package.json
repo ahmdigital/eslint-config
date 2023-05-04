@@ -1,6 +1,6 @@
 {
   "name": "@ahmdigital/eslint-config",
-  "version": "7.0.16",
+  "version": "7.0.17",
   "description": "ahm digital eslint config",
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "8.4.0",
     "eslint-import-resolver-webpack": "0.13.2",
-    "eslint-plugin-cypress": "2.13.2",
+    "eslint-plugin-cypress": "2.13.3",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jest": "27.2.1",
     "eslint-plugin-jsdoc": "43.1.1",
