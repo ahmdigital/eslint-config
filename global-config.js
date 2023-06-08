@@ -39,7 +39,6 @@ module.exports = {
     'jsdoc/check-param-names': 'error',
     'jsdoc/check-tag-names': 'error',
     'jsdoc/check-types': 'error',
-    'jsdoc/newline-after-description': 'error',
     'jsdoc/require-description-complete-sentence': 'error',
     'jsdoc/require-hyphen-before-param-description': 'error',
     'jsdoc/require-param': 'error',
