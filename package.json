@@ -48,7 +48,7 @@
     "node": "^16"
   },
   "devDependencies": {
-    "jest": "29.6.3"
+    "jest": "29.6.4"
   },
   "files": [
     ".eslintrc.js",
