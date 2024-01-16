@@ -23,6 +23,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react/forbid-prop-types': 'warn',
+    "react/function-component-definition": [2, { "namedComponents": "arrow-function" }],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/jsx-fragments': 'off',
     'react/jsx-no-bind': 'error',
