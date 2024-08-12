@@ -15,7 +15,7 @@ module.exports = {
   },
   extends: ['airbnb', ...globalExtensions],
   parser: globalParser,
-  plugins: ['sort-imports-es6-autofix', 'cypress', 'react-hooks', ...globalPlugins],
+  plugins: ['sort-imports-es6-autofix', 'cypress', 'react-hooks', 'testing-library', ...globalPlugins],
   rules: {
     ...globalRules,
     'jsx-a11y/anchor-is-valid': 'warn',
@@ -23,7 +23,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react/forbid-prop-types': 'warn',
-    "react/function-component-definition": [2, { "namedComponents": "arrow-function" }],
+    'react/function-component-definition': [2, { namedComponents: 'arrow-function' }],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/jsx-fragments': 'off',
     'react/jsx-no-bind': 'error',
@@ -45,6 +45,7 @@ module.exports = {
         memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
       },
     ],
+    'testing-library/await-async-utils': 'error',
   },
   settings: {
     ...globalSettings,
