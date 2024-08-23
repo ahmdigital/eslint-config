@@ -31,6 +31,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'react/no-danger': 'warn',
     'react/no-find-dom-node': 'warn',
+    'react/no-multi-comp': 'error',
     'react/no-string-refs': 'warn',
     'react/no-unused-prop-types': 'warn',
     'react/prefer-stateless-function': 'warn',
