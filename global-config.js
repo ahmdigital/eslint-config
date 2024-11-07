@@ -53,7 +53,6 @@ module.exports = {
     'jsdoc/require-returns-type': 'error',
     'lodash/chaining': ['error', 'always'],
     'lodash/prefer-constant': ['error', false],
-    'lodash/prefer-lodash-method': ['error', { ignoreMethods: ['find', 'startsWith'] }],
     'lodash/prefer-over-quantifier': 'off',
     'lodash-fp/consistent-compose': ['warn', 'flow'],
     'lodash-fp/no-chain': 'warn',
