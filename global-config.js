@@ -51,6 +51,7 @@ module.exports = {
     'jsdoc/require-param-type': 'error',
     'jsdoc/require-returns-description': 'error',
     'jsdoc/require-returns-type': 'error',
+    'lodash/prefer-lodash-method': 'off',
     'lodash/chaining': ['error', 'always'],
     'lodash/prefer-constant': ['error', false],
     'lodash/prefer-over-quantifier': 'off',
